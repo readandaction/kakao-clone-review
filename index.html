@@ -64,9 +64,12 @@
         <!-- chats 3. li.chats__chat.chat  -->
         <li class="chats__chat chat">
           <div class="chat__column">
-            <img src="images/avatar.jpg" class="chat__avatar" />
-            <span class="chat__user-name">Chan</span>
-            <span class="chat__preview">Can i use this?</span>
+            <!-- friends 1. g-avatar 전역 클래스 추가 어디서든 동일하게 적용되게 -->
+            <img src="images/avatar.jpg" class="chat__avatar g-avatar" />
+            <div class="chat__content">
+              <span class="chat__user-name">Chan</span>
+              <span class="chat__preview">Can i use this?</span>
+            </div>
           </div>
           <div class="chat__column">
             <span class="chat__timestamp">Yesterday</span>
