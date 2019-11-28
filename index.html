@@ -55,6 +55,25 @@
         </span>
       </div>
     </header>
+    <!-- chats 1. main.chats -->
+    <main class="chats">
+      <!-- chats 2. ul.chats__list -->
+      <ul class="chats__list">
+        <!-- block__elemet의 element가 block이 된 느낌? -->
+        <!-- 클래스 이름이 너무 복잡해지는 것을 방지 -->
+        <!-- chats 3. li.chats__chat.chat  -->
+        <li class="chats__chat chat">
+          <div class="chat__column">
+            <img src="images/avatar.jpg" class="chat__avatar" />
+            <span class="chat__user-name">Chan</span>
+            <span class="chat__preview">Can i use this?</span>
+          </div>
+          <div class="chat__column">
+            <span class="chat__timestamp">Yesterday</span>
+          </div>
+        </li>
+      </ul>
+    </main>
     <!-- 9. nav.nav 작성 -->
     <nav class="nav">
       <!-- 10. ul.nav__list 작성 -->
@@ -79,7 +98,7 @@
           ></a>
         </li>
         <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link">
+          <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
