@@ -1,0 +1,37 @@
+<!-- 1. html:5 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chats | Kakao Clone</title>
+    <!-- 5. fontawsome 웹사이트에서 css파일만 가져와서 여기서 아이콘을 사용할 수 있게 한다 -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- 2. 클래스 이름 .status-bar 생성 -->
+    <div class="status-bar">
+      <!-- 3. .status-bar__column 생성
+        BEM. block__element -->
+      <div class="status-bar__column">
+        <!-- 4. span.status-bar__clock 생성
+        BEM을 사용하여 clock이 status-bar 안에 있다는 것을 알 수 있다.-->
+        <span class="status-bar__clock">
+          10:24
+        </span>
+      </div>
+      <div class="status-bar__column">
+        <!-- 5-1. fontawsome 아이콘 사용 -->
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+  </body>
+</html>
