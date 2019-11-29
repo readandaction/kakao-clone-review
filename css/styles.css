@@ -1,11 +1,15 @@
 @import "reset.css";
 /* css 4. google font 사용을 위해 import */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 /* tip. 아래로 라인 복붙
-drag+command+option+down */
+drag+shift+option+down */
 /* css 2. import */
 @import "status-bar.css";
+/* header css 1. css 파일을 기능별로 만드는 이유
+나누어 두면 오류 수정할 때 편하다. 길게 스크롤 할 필요가 없어진다. */
+@import "header.css";
 /* css 1. body */
+
 body {
   background-color: white;
   padding: 10px 20px;
@@ -13,4 +17,10 @@ body {
   /* css 4. google font 사용 */
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  /* color:inherit 
+    부모요소의 폰트색을 따름*/
+  color: inherit;
 }
