@@ -33,59 +33,48 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <!-- 6A. header.header 작성 -->
     <header class="header">
-      <!-- 7. .header__column*2 작성 -->
       <div class="header__column">
-        <!-- 8. h1.header__title 작성 -->
         <h1 class="header__title">Settings</h1>
       </div>
-      <!-- 6B. .header__column 작성 -->
+      <!-- settings 2.  -->
+      <div class="header__back-btn">
+        <a href="more.html"><i class="fas fa-arrow-left"></i></a>
+      </div>
       <div class="header__column">
-        <!-- 7. span.header__icon 작성 -->
         <span class="header__icon">
-          <!-- 8. i.fas.fa-search  작성 -->
           <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
-    <!-- 9. nav.nav 작성 -->
-    <nav class="nav">
-      <!-- 10. ul.nav__list 작성 -->
-      <ul class="nav__list">
-        <!-- 11 & 12. 한번에 작성하는 법
-        li.nav__list-item*4>a.nav__list-link -->
-        <!-- 11. li.nav__list-item 작성 -->
-        <li class="nav__list-item">
-          <!-- 12.a.nav__list-link 작성 -->
-          <a href="friends.html" class="nav__list-link"
-            ><i class="fas fa-user"></i
-          ></a>
+    <!-- settings 3. main.settings -->
+    <main class="settings">
+      <ul class="settings__list">
+        <li class="settinds__setting">
+          <span class="settings__icon">
+            <i class="fas fa-lock"></i>
+          </span>
+          <span class="settings__title">
+            Privacy
+          </span>
         </li>
-        <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i
-          ></a>
+        <li class="settinds__setting">
+          <span class="settings__icon">
+            <i class="fas fa-bell"></i>
+          </span>
+          <span class="settings__title">
+            Notification
+          </span>
         </li>
-        <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link"
-            ><i class="fas fa-search"></i
-          ></a>
-        </li>
-        <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
+        <li class="settinds__setting">
+          <span class="settings__icon">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="settings__title">
+            Users
+          </span>
         </li>
       </ul>
-      <!-- 13. 모든 페이지에 공통으로 들어가는 기본틀 완성
-        command + a 복사 -->
-    </nav>
+    </main>
   </body>
 </html>
