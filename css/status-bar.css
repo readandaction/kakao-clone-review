@@ -1,0 +1,17 @@
+/* css 3.  */
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  /* 투명도.
+  회색으로 지정하는 거랑 별차이가 없다. */
+  opacity: 0.7;
+}
+/* css 4. status-bar */
+/* 가상 선택자 i 사용 */
+.status-bar i {
+  font-size: 14px;
+}
+.status-bar .status-bar__battery-level {
+  margin-left: 5px;
+}

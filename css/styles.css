@@ -1,1 +1,16 @@
 @import "reset.css";
+/* css 4. google font 사용을 위해 import */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+/* tip. 아래로 라인 복붙
+drag+command+option+down */
+/* css 2. import */
+@import "status-bar.css";
+/* css 1. body */
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  /* css 4. google font 사용 */
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
