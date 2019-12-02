@@ -9,6 +9,8 @@ drag+shift+option+down */
 나누어 두면 오류 수정할 때 편하다. 길게 스크롤 할 필요가 없어진다. */
 @import "header.css";
 @import "nav-bar.css";
+@import "friends.css";
+
 /* nav css. 이걸 하지 않으면 nav가 넘쳐서 4번째 아이콘이 보이지 않음 */
 * {
   box-sizing: border-box;
