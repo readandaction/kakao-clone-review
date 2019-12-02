@@ -10,3 +10,24 @@
   display: flex;
   justify-content: space-between;
 }
+/* css nav__badge를 위해
+그 부모 요소에 position:relative */
+.nav .nav__list-link {
+  position: relative;
+}
+/* css nav__badge position:absolute
+absolute는 relative를 필요로 한다 */
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(211, 74, 50);
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
